@@ -14,7 +14,7 @@ public class Ejercicio8 {
     
     String palabra = uno + "" + dos + "" + tres + "" + cuatro + "" + cinco;
     
-    //Despues de varios fallos descubri que al separar los char con unas comillas.
+    //Despues de varios fallos descubri que al separar los char con unas comillas
     //El sistema dejaba de fallar y compilaba con exito.
     
     System.out.println(palabra);

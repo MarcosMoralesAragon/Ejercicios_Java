@@ -8,8 +8,10 @@ public class Ejercicio4 {
 
     System.out.println("Convertir 3 euros en pesetas");
     
-    int conversor = 3 * 166;
+    double pesetas = 166.380;
+    double conversor = 3 * pesetas;
     
+    System.out.println("" ); //Para espaciar las 2 frases y que quede mejor
     System.out.println("Sus 3 euros son:" + conversor );
     
   }

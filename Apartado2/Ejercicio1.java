@@ -3,14 +3,14 @@
  *
  * @author MarcosMoralesAragon
  */
-public class  Ejercicio1 { // Clase principal
+public class  Ejercicio1 { 
   public static void main(String[] args) {
     
     int x = 144;
     int y = 999;
     int sum = x + y;
     int mul = x * y;
-    int div = y / x;
+    double div = (double) y / (double) x;
     int rest = x - y;
     
     System.out.println("La suma de mis variables es " + sum);

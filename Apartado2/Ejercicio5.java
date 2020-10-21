@@ -8,8 +8,9 @@ public class Ejercicio5 {
 
     System.out.println("Conversor de 123456 pesetas a euros");
     
-    int conversor = 123456 / 166;
+    double conversor = 123456 / 166;
     
+    System.out.println("");
     System.out.println("Sus pesetas equivalen a:" + conversor);
     
   }
