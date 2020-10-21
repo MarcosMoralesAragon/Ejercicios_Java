@@ -1,6 +1,8 @@
 # Ejercicios_Java
 
-Repositorio de ejercicios de Java, organizados en carpetas según sus apartados.
+Repositorio de ejercicios de Java, realizados durante mi periodo de aprendizaje en [IESCampanillas](https://github.com/orgs/IESCampanillas/) para formarme como Tecnico Superior en Desarrollo de Aplicaciones Multiplataforma
+
+	INDICE (Organizado segun los apartados del libro proporcionado por el profesor)
 
 * [*Apartado1 (Ejercicios del 1 al 10)*](https://github.com/MarcosMoralesAragon/Ejercicios_Java/tree/main/Apartado1)
 * [*Apartado2 (Ejercicios del 1 al 8)*](https://github.com/MarcosMoralesAragon/Ejercicios_Java/tree/main/Apartado2)
