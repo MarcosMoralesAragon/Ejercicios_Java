@@ -6,7 +6,7 @@
 public class Ejercicio4 { 
   public static void main(String[] args) {
   
-  System.out.println("Introduza su total de horas trabajadas:");
+  System.out.print("Introduza su total de horas trabajadas:");
   int horas = Integer.parseInt(System.console().readLine());
   
   int horasextra;
