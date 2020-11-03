@@ -8,4 +8,4 @@ Repositorio de ejercicios de Java, realizados durante mi periodo de aprendizaje 
 * [*Apartado2 (Ejercicios del 1 al 8)*](https://github.com/MarcosMoralesAragon/Ejercicios_Java/tree/main/Apartado2)
 * [*Apartado3 (Ejercicios del 1 al 12)*](https://github.com/MarcosMoralesAragon/Ejercicios_Java/tree/main/Apartado3)
 * [*Apartado4 (Ejercicios del 1 al 15)*](https://github.com/MarcosMoralesAragon/Ejercicios_Java/tree/main/Apartado4)
-* [*Apartado5 (Ejercicios del 1 y 4)*](https://github.com/MarcosMoralesAragon/Ejercicios_Java/tree/main/Apartado5)
+* [*Apartado5 (Ejercicios del 1 al 7)*](https://github.com/MarcosMoralesAragon/Ejercicios_Java/tree/main/Apartado5)
