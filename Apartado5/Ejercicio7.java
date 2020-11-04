@@ -14,16 +14,12 @@ public class Ejercicio7 {
    
    int comprobante = 1234;
    int intentos = 0;
-   int z = 1;
-   int x = 0;
+   int acierto = 0;
     
     if (comprobante == contra) {
       System.out.println("Contraseña correcta, bienvenido señor");
     } else {
         do {
-          for (x = 0; intentos < 3;){
-            
-          z = z-1;
           
           intentos = intentos +1;
           int restantes = 3-intentos;
@@ -34,12 +30,11 @@ public class Ejercicio7 {
           System.out.print("> ");
           contra = Integer.parseInt(System.console().readLine());
           System.out.println("");
-          
+        
             if (contra == comprobante) {
-            x = 1;
-            } 
-          } 
-        }while (x  < 0);
+            acierto = 1;
+             } 
+        }while (acierto < 0);
         System.out.println("Contraseña correcta, bienvenido señor");
       }
     }
