@@ -5,38 +5,36 @@
  */
 public class Ejercicio7 { 
   public static void main(String[] args) {
-   
-   System.out.println("Introduce los 4 digitos del código de la caja fuerte");
+  
+   System.out.println("Introduzca el código de la caja fuerte (tienes 4 intentos");
    System.out.print("> ");
-   int contra = Integer.parseInt(System.console().readLine());
-   
-   System.out.println("");
-   
+   int contraseña = Integer.parseInt(System.console().readLine());
+  
    int comprobante = 1234;
+   boolean acierto = false;
    int intentos = 0;
-   int acierto = 0;
+   int restantes;
+   boolean finalBucle = false
+  
+    if (contraseña == comprobante) {
     
-    if (comprobante == contra) {
-      System.out.println("Contraseña correcta, bienvenido señor");
-    } else {
-        do {
-          
-          intentos = intentos +1;
-          int restantes = 3-intentos;
-          
-          System.out.println("Error");
-          System.out.print("Introduce los 4 digitos del código");
-          System.out.println(" (quedan " + restantes + " intentos restantes)");
-          System.out.print("> ");
-          contra = Integer.parseInt(System.console().readLine());
-          System.out.println("");
+     System.out.println("Contraseña correcta, bienvenido");
+    }else{
+      
+      do {
+        intentos = intentos + 1;
+        restantes = 4 - intentos;
         
-            if (contra == comprobante) {
-            acierto = 1;
-             } 
-        }while (acierto < 0);
-        System.out.println("Contraseña correcta, bienvenido señor");
-      }
-    }
-	}
+        System.out.println("Error, contraseña incorrecta (quedan "+ restantes +" intentos)");
+        System.out.print("> ");
+        contraseña = Integer.parseInt(System.console().readLine());
+        
+        if (contraseña == comprobante) {
+          acierto = true;
+          System.out.println("Contraseña correcta, bienvenido");
+        }
+      } while ((acierto == false) || (intentos < 3));
+    }  
+  }
+}
 
