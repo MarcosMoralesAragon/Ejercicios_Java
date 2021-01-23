@@ -7,9 +7,6 @@
 public class Ejercicio6{ 
   public static void main(String[] args) {
     
-    System.out.println("Muestra 50 numeros aleatorios entre 100 y 199");
-    System.out.println(" ");
-    
     int numero = (int)(Math.random()*100);
     boolean acertado = false;
     int numeroIntroducido = 0;
